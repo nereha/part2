@@ -1,0 +1,41 @@
+name: firebase_otp
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  device_info: 
+  flutter_phoenix:
+  firebase_auth: null
+  firebase_core: null
+  pin_entry_text_field: ^0.1.4
+  shared_preferences: null
+  fluttertoast: ^7.1.5
+  http: ^0.12.2
+  flutter_iconpicker: ^2.2.2
+  icon_picker: "^1.1.0"
+  flutter_slidable: ^0.5.7
+  slide_to_confirm: ^0.0.7
+  pin_code_fields: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/me.png
+    - assets/background.png
+    - assets/icon/edit.png
+    - assets/icon/close.png
+    - assets/icon/checkbox.png
